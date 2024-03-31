@@ -1,0 +1,80 @@
+
+<div class="box-container">
+    <div class="box">
+        <H1 class="number">88%</H1>
+        <div>
+            <h3 class="heading">Sản Phẩm</h3>
+            <p>Hài lòng chất lượng sản phẩm</p>
+        </div>
+    </div>
+    
+    <div class="box">
+        <H1 class="number">753</H1>
+        <div>
+            <h3 class="heading">Hợp Đồng</h3>
+            <p>Ký hợp đồng thành công</p>
+        </div>
+    </div>
+    <div class="box">
+        <H1 class="number">769</H1>
+        <div>
+            <h3 class="heading">Thương Hiệu</h3>
+            <p>Nổi tiếng cả nước</p>
+        </div>
+    </div>
+    <div class="box">
+        <H1 class="number">9079</H1>
+        <div>
+            <h3 class="heading">Cửa Hàng</h3>
+            <p>Cửa hàng uy tín</p>
+        </div>
+    </div>
+    <div class="box">
+        <H1 class="number">182</H1>
+        <div>
+            <h3 class="heading">Chi Nhánh</h3>
+            <p>Chi nhánh cả nước</p>
+        </div>
+    </div>
+    <div class="box">
+        <H1 class="number">95</H1>
+        <div>
+            <h3 class="heading">Bằng Sáng Chế</h3>
+            <p>Uy tín </p>
+        </div>
+    </div>
+</div>
+
+<style> 
+    .heading{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding-bottom: .25rem;
+    }
+    .box-container{
+    display: grid;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem 5%;
+    }
+    .box-container .box{
+    padding: 2.5rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .box-container .box .number{
+    background: #fff;
+    border: 0.1em solid #161616;
+    text-align: center;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    }
